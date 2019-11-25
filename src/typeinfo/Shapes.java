@@ -1,4 +1,4 @@
-package learn.typeinfo;
+package typeinfo;
 
 import java.util.Arrays;
 import java.util.List;
@@ -7,7 +7,7 @@ abstract class Shape {
     void draw() {
         System.out.println(this.toString() + ".draw()"); // this will call toString() method implicitly
     }
-    abstract public String toString(); //Overwrite Object toString()
+    abstract public String toString(); //Override Object toString()
 }
 
 class Circle extends Shape {
@@ -28,5 +28,11 @@ public class Shapes {
         for(Shape shape :  shapeList) {
             shape.draw();
         }
+
+        //test 4: Circle up-cast to Shape And then down-cast to Triangle
+        Shape shape = new Circle();
+        // Un-comment below will throw ClassCastException: Circle cannot be cast to Triangle
+        // Compiler also give warnings
+        //((Triangle)shape).draw();
     }
 }
