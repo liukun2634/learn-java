@@ -44,13 +44,13 @@ public class ShowMethods {
                 lines = methods.length + constructors.length;
             } else {
                 for (Method method : methods) {
-                    if (method.toString().indexOf(args[1]) != -1) {
+                    if (method.toString().contains(args[1])) {
                         System.out.println(p.matcher(method.toString()).replaceAll(""));
                         lines++;
                     }
                 }
                 for (Constructor constructor : constructors) {
-                    if (constructor.toString().indexOf(args[1]) != -1) {
+                    if (constructor.toString().contains(args[1])) {
                         System.out.println(p.matcher(constructor.toString()).replaceAll(""));
                         lines++;
                     }
@@ -58,12 +58,12 @@ public class ShowMethods {
                 }
                 lines = methods.length + constructors.length;
             }
-        } catch (
-                ClassNotFoundException e)
+        } catch (ClassNotFoundException e)
 
         {
             e.printStackTrace();
         }
 
+        System.out.println("lines results" + lines);
     }
 }
