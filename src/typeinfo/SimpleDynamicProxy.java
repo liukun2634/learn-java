@@ -21,11 +21,13 @@ class DynamicProxyHandler implements InvocationHandler {
 
     @Override
     public Object invoke(Object proxy, Method method, Object[] args) throws Throwable {
-        System.out.println("**** Invoke *****");
+        System.out.println("**** dynamic proxy method");
         System.out.println("proxy class: " + proxy.getClass());
         System.out.println("method: " + method);
         System.out.println("args: " + Arrays.toString(args));
         System.out.println("real object class: " + proxied.getClass());
+        System.out.println("**** real object method");
+        //Here call the real object method
         return method.invoke(this.proxied, args);
     }
 }
