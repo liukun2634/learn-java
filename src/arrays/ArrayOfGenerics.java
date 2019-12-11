@@ -32,7 +32,9 @@ public class ArrayOfGenerics {
         //Because ArrayList<Integer> is subtype of Object
         objects[1] = new ArrayList<Integer>();
 
-
-
+        //Can put different type in object[1] 
+        ((ArrayList<Integer>)objects[1]).add(1);
+        ((ArrayList<ArrayOfGenerics>)objects[1]).add(new ArrayOfGenerics());
+        System.out.println(objects[1]);
     }
 }
