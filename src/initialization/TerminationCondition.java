@@ -1,7 +1,7 @@
 package initialization;
 
 class Book {
-    boolean checkedOut = false;
+    private boolean checkedOut = false;
 
     Book(boolean checkOut) {
         checkedOut = checkOut;
