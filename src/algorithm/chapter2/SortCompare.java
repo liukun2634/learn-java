@@ -32,6 +32,8 @@ public class SortCompare {
         StdOut.printf("Insertion time is: %f \n", timeRandomInput(new Insertion(), N, T));
         StdOut.printf("Shell time is: %f \n", timeRandomInput(new Shell(), N, T));
         StdOut.printf("Merge time is: %f \n", timeRandomInput(new Merge(), N, T));
+        StdOut.printf("MergeBU time is: %f \n", timeRandomInput(new MergeBU(), N, T));
+        StdOut.printf("Quick time is: %f \n", timeRandomInput(new Quick(), N, T));
     }
 
 }
