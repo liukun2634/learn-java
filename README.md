@@ -1,9 +1,10 @@
-# Java学习
+## Java学习
 
 总结和整理个人学习Java的仓库，也希望能够对你有所帮助。
 
-## 个人学习列表
+### 个人学习总结
 
+- 序列化 Serializable
 - 集合 Collection
   - [ArrayList](src/collection/arraylist)
   - [HashMap](src/collection/hashmap)
@@ -17,7 +18,7 @@
 
 ### 本地搭建
 
-1. Fork and git clone 
+1. Fork and Clone `git clone git@github.com:{username}/learn-java.git`
 2. Import project by Intellij
 3. Download and import external library [algs4.jar](https://algs4.cs.princeton.edu/code/).
 
