@@ -1,5 +1,7 @@
 package thinkinginjava.classloading;
 
+import java.lang.String;
+
 import java.io.IOException;
 import java.io.InputStream;
 

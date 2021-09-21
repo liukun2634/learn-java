@@ -1,5 +1,7 @@
 package thinkinginjava.arrays;
 
+import java.lang.String;
+
 class ClassParameter<T> {
     public T[] f(T[] arg) {
         return arg;
@@ -15,7 +17,7 @@ class MethodParameter {
 public class ParameterizedArrayType {
     public static void main(String[] args) {
         // Illegal for generic array because of type erase
-//        Collection<String>[] lists = new Collection<String>[10];
+//        Collection<Thread>[] lists = new Collection<Thread>[10];
 
 
         Integer[] ints = {1,2,3,4};

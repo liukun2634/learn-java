@@ -1,5 +1,7 @@
 package concurrencyinpractice.chapterfive;
 
+import java.lang.String;
+
 import java.math.BigInteger;
 
 public class ExpensiveFunction implements Computable<String, BigInteger> {

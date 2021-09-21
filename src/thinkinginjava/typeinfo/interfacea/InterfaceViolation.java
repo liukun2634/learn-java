@@ -1,6 +1,8 @@
 package thinkinginjava.typeinfo.interfacea;
 
 
+import java.lang.String;
+
 class B implements A {
 
     @Override

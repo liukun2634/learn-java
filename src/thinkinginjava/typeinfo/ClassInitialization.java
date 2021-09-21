@@ -1,5 +1,7 @@
 package thinkinginjava.typeinfo;
 
+import java.lang.String;
+
 import java.util.Random;
 
 class Initable {

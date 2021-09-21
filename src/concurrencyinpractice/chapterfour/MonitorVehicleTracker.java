@@ -1,5 +1,6 @@
 package concurrencyinpractice.chapterfour;
 
+import java.lang.String;
 import net.jcip.annotations.GuardedBy;
 import net.jcip.annotations.ThreadSafe;
 

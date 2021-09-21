@@ -1,6 +1,8 @@
 package thinkinginjava.typeinfo.nullobject;
 
 
+import java.lang.String;
+
 interface Null {
 }
 

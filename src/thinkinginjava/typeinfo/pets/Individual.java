@@ -1,5 +1,7 @@
 package thinkinginjava.typeinfo.pets;
 
+import java.lang.String;
+
 public abstract class Individual {
     String name;
     public Individual(String name) {

@@ -1,6 +1,8 @@
 package thinkinginjava.holding;
 //Containers print themselves automatically
 
+import java.lang.String;
+
 import java.util.*;
 
 public class PrintingContainers {

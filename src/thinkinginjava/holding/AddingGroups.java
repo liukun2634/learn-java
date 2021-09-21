@@ -2,6 +2,8 @@ package thinkinginjava.holding;
 
 //Adding groups of elements to Collection objects
 
+import java.lang.String;
+
 import java.util.*;
 
 public class AddingGroups {

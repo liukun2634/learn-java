@@ -1,5 +1,7 @@
 package collection.hashmap;
 
+import java.lang.String;
+
 import java.util.HashMap;
 import java.util.Map;
 

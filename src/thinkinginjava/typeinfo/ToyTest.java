@@ -1,6 +1,8 @@
 package thinkinginjava.typeinfo;
 
 
+import java.lang.String;
+
 interface HasBatteries {
 }
 

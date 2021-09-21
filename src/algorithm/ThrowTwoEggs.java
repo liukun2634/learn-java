@@ -1,5 +1,7 @@
 package algorithm;
 
+import java.lang.String;
+
 public class ThrowTwoEggs {
 
     //Two eggs,

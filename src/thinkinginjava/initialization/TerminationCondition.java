@@ -1,5 +1,7 @@
 package thinkinginjava.initialization;
 
+import java.lang.String;
+
 class Book {
     private boolean checkedOut = false;
 

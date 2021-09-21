@@ -1,5 +1,7 @@
 package thinkinginjava.holding;
 
+import java.lang.String;
+
 import java.util.Iterator;
 
 public class IterableClass implements Iterable<String>{

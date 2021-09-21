@@ -1,5 +1,7 @@
 package concurrencyinpractice.chapterfour;
 
+import java.lang.String;
+
 import java.util.Collections;
 import java.util.Map;
 import java.util.concurrent.ConcurrentHashMap;

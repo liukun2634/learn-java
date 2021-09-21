@@ -1,5 +1,7 @@
 package thinkinginjava.typeinfo.nullobject;
 
+import java.lang.String;
+
 import java.util.ArrayList;
 
 public class Staff extends ArrayList<Position> {

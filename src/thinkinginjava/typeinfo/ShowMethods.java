@@ -2,6 +2,8 @@ package thinkinginjava.typeinfo;
 //Using reflection to show all methods of a class
 //even if the method are defined in the base class
 
+import java.lang.String;
+
 import java.lang.reflect.Constructor;
 import java.lang.reflect.Method;
 import java.util.regex.Pattern;
@@ -33,7 +35,7 @@ public class ShowMethods {
             if (args.length == 1) {
                 System.out.println("***** All methods in Class " + classPath);
                 for (Method method : methods) {
-//                    System.out.println(method.toString()); //Show original signature, like public static void thinkinginjava.typeinfo.ShowMethods.main(java.lang.String[])
+//                    System.out.println(method.toString()); //Show original signature, like public static void thinkinginjava.typeinfo.ShowMethods.main(java.lang.Thread[])
                     System.out.println(p.matcher(method.toString()).replaceAll(""));
                 }
                 System.out.println("***** Constructor in Class" + classPath);

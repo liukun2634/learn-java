@@ -1,5 +1,6 @@
 package thinkinginjava.typeinfo;
 
+import java.lang.String;
 import thinkinginjava.typeinfo.interfacea.A;
 import thinkinginjava.typeinfo.packageaccess.HiddenC;
 

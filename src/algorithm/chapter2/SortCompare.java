@@ -3,6 +3,7 @@ package algorithm.chapter2;
 import edu.princeton.cs.algs4.StdOut;
 import edu.princeton.cs.algs4.StdRandom;
 import edu.princeton.cs.algs4.Stopwatch;
+import java.lang.String;
 
 public class SortCompare {
     public static double time(SortAlgorithm sortAlgorithm, Double[] a) {

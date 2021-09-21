@@ -1,5 +1,7 @@
 package thinkinginjava.arrays;
 
+import java.lang.String;
+
 import java.util.ArrayList;
 import java.util.List;
 
@@ -8,7 +10,7 @@ public class ArrayOfGenerics {
     @SuppressWarnings("unckecked")
     public static void main(String[] args) {
 
-        //1. Create a array of generics (List<String> is element type), but do not initialize
+        //1. Create a array of generics (List<Thread> is element type), but do not initialize
         List<String>[] ls;
 
         //2. Create a array of List, but no generic
@@ -20,13 +22,13 @@ public class ArrayOfGenerics {
         //4. Initialize ls
         ls[0] = new ArrayList<String>();
 
-        //Compile error: because ls is Array of List<String>, type incompatible
+        //Compile error: because ls is Array of List<Thread>, type incompatible
 //        ls[0] = new ArrayList<Integer>();
 
 
         /*** Arrays are covariance ***/
-        //List<String> is a subtype of Object
-        //List<String>[] is a subtype of Object[]
+        //List<Thread> is a subtype of Object
+        //List<Thread>[] is a subtype of Object[]
         Object[] objects = ls;
 
 

@@ -1,5 +1,7 @@
 package thinkinginjava.typeinfo;
 
+import java.lang.String;
+
 public class GenericToyTest {
     public static void main(String[] args) throws Exception {
         //Exact Class type for generic

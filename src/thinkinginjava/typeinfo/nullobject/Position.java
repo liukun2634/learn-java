@@ -1,5 +1,7 @@
 package thinkinginjava.typeinfo.nullobject;
 
+import java.lang.String;
+
 public class Position {
     private String title;
     private Person person;

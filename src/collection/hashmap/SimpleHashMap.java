@@ -1,6 +1,6 @@
 package collection.hashmap;
 
-import java.util.HashMap;
+import java.lang.String;
 
 public class SimpleHashMap<K, V> implements SimpleMap<K, V> {
 

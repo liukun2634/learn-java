@@ -1,5 +1,7 @@
 package thinkinginjava.typeinfo;
 
+import java.lang.String;
+
 //Examination of the wat the class loader works
 class Candy {
     //Static block only run once when loading this class

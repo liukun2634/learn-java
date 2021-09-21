@@ -1,5 +1,7 @@
 package thinkinginjava.typeinfo;
 
+import java.lang.String;
+
 interface Interface {
     void doSomething();
     void doSomethingElse(String args);

@@ -1,5 +1,7 @@
 package algorithm.chapter1;
 
+import java.lang.String;
+
 import java.util.Scanner;
 import java.util.Stack;
 
