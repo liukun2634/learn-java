@@ -1,10 +1,10 @@
-package javaguide.concurrency.aqs;
+package concurrency;
 
 import java.util.concurrent.Semaphore;
 import java.util.concurrent.locks.AbstractQueuedSynchronizer;
 import java.util.concurrent.locks.ReentrantLock;
 
-public class AQSExample {
+public class AQSTest {
     public static void main(String[] args) {
         AbstractQueuedSynchronizer synchronizer = new AbstractQueuedSynchronizer() {
             @Override
