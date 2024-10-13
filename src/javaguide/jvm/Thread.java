@@ -1,4 +1,4 @@
-package jvm;
+package javaguide.jvm;
 
 public class Thread {
     public static void test(){

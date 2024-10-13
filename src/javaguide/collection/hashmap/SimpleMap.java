@@ -1,4 +1,4 @@
-package collection.hashmap;
+package javaguide.collection.hashmap;
 
 public interface SimpleMap<K, V> {
     static interface Entry<K, V>{

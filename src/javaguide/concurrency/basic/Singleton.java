@@ -1,4 +1,4 @@
-package javaguide.concurrency;
+package javaguide.concurrency.basic;
 
 //线程安全的Singleton
 public class Singleton {

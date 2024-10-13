@@ -1,4 +1,4 @@
-package javaguide.concurrency;
+package javaguide.concurrency.basic;
 
 import java.lang.String;
 

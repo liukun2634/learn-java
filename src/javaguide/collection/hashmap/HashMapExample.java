@@ -1,4 +1,4 @@
-package collection.hashmap;
+package javaguide.collection.hashmap;
 
 import java.lang.String;
 

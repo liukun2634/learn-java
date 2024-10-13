@@ -1,4 +1,4 @@
-package collection.arraylist;
+package javaguide.collection.arraylist;
 
 import java.lang.String;
 
